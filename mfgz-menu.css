@@ -59,6 +59,7 @@ body{
 }
 .einleitung-main-text .social-links, .flexi-layout .social-links{
   padding-left:0px;
+	font-size:24px !important;
 }
 .menu-item.active .menu-item-item{
   text-decoration:underline;
@@ -414,3 +415,10 @@ li.menu-item{
 .site-navigation{
   position:relative;
 }
+/*menu change widths*/
+@media(orientation:portrait),(max-width:800px){
+	.site-navigation .col-sm-4{
+		width:100%;
+	}
+}
+
