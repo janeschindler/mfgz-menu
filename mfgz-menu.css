@@ -389,6 +389,9 @@ li.menu-item{
       width:100%;
       border-bottom:1px solid rgb(245,245,245);
   }
+	.neben-link-main br{
+		display:none;
+	}
 }
 /*horizontal menu cramped styles*/
 @media(max-width:1058px) and (orientation:landscape){
@@ -411,4 +414,3 @@ li.menu-item{
 .site-navigation{
   position:relative;
 }
-
