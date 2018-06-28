@@ -35,6 +35,7 @@ body{
 @media(min-width:801px) and (orientation:landscape){
   .navbar-default.top:hover{
     color:#000 !important;
+		background-color:#fff;
   }
 }
 .navbar-default.open{
@@ -349,7 +350,7 @@ li.menu-item{
       top:0px;
       line-height:20px;
       padding-top:25px;
-      z-index:8888;
+      z-index:9999;
   }
   .menu-item.settings{
     position:absolute;
