@@ -13,7 +13,8 @@ body{
   display:block !important;
 	font-weight:bold;
 }
-.navbar-default.definitely-black a, .navbar-default.definitely-black .site-name, .navbar-default.definitely-black, .navbar-default.overlay-showing{
+.navbar-default.definitely-black a, .navbar-default.definitely-black .site-name, .navbar-default.definitely-black, .navbar-default.overlay-showing,
+.navbar-default.not-top a, .navbar-default.not-top .site-name, .navbar-default.not-top{
   color:#000 !important;
 }
 .navbar-default.definitely-black .navbar-toggle .icon-bar{
