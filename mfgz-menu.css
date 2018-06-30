@@ -145,6 +145,9 @@ li.menu-item{
   background-color:transparent;
 }
 @media(orientation:portrait),(max-width:800px){
+  .navbar-default .navbar-nav>li.admin-link>a{
+    right:0px;
+  }
 .navbar-default .language-chooser{
   padding-left:15px;
   padding-right:15px;
@@ -513,6 +516,9 @@ li.menu-item{
 .menu-overlay a.text-icon .text{
 	max-width:100%;
 }
+.link-container{
+	display:inline;
+}
 @media(orientation:portrait),(max-width:800px){
 	/*ios dissappearing nav bug*/
 	.site-navigation{
@@ -603,7 +609,8 @@ li.menu-item{
 		display:none;
 	}
 	#menu-item-1 .opening-times-menu, #menu-item-1 .agenda-link,
-	#menu-item-0 .opening-times-menu, #menu-item-0 .agenda-link{
+	#menu-item-0 .opening-times-menu, #menu-item-0 .agenda-link,
+	#menu-item-3 .opening-times-menu{
 		display:none;
 	}
 	.menu-item-item:after{
@@ -652,6 +659,9 @@ li.menu-item{
 	.menu-item hr{
 		display:none;
 	}
+	.neben-link-container-icon-text .link-container{
+		display:none;
+	}
 }
 @media(min-width:1000px) and (orientation:landscape){
 	#menu-item-0{
@@ -674,6 +684,9 @@ li.menu-item{
 	}
 }
 @media(min-width:801px) and (orientation:landscape){
+	.mobile-standort-title{
+		display:none;
+	}
 	.hauptlinks .standort-text .icon{
 		display:none;
 	}
@@ -731,7 +744,8 @@ li.menu-item{
 	padding-bottom:30px;
 		display:none;
 	}
-	#menu-item-1 .neben-link-desc, #menu-item-0 .neben-link-desc{
+	#menu-item-1 .neben-link-desc, #menu-item-0 .neben-link-desc, 
+	#menu-item-3 .neben-link-desc	{
 		padding-bottom:0px;
 	}
 	#menu-item-1 .opening-times-menu.text-icon, 
@@ -872,4 +886,13 @@ li.menu-item{
 .social-links a, .social-links a:hover, .social-links a:focus, .social-links a:active {
     text-decoration: none;
 		font-family:mfgz;
+}
+@media(orientation:portrait),(max-width:800px){
+	.menu-item .social-links{
+		padding-left:45px;
+		border-top:1px solid rgba(0,0,0,.05);
+		margin-top:0px;
+		padding-top:6px;
+		padding-bottom:12px;
+	}
 }
