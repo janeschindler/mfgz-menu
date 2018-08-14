@@ -452,6 +452,7 @@ li.menu-item{
 	display:none;
 	color:#000;
 	overflow-y:scroll;
+	overflow-x:hidden;
 }
 .hauptlinks a{
 	font-size:2.118em;
