@@ -591,7 +591,7 @@ li.menu-item{
 		border-bottom:0px;
 	}
 	.neben-links .left-nebenlinks a:last-of-type .neben-link-main{
-		border-bottom: 1px solid rgba(0,0,0,.05);
+		//border-bottom: 1px solid rgba(0,0,0,.05);
 	}
 	.neben-link-main.no-desc:after, .menu-item .agenda-link:after{
 		text-transform:lowercase;
@@ -642,6 +642,9 @@ li.menu-item{
 		padding-left:26px;
 		width:100%;
 		border-bottom: 1px solid rgba(0,0,0,.05);
+	}
+	.menu-overlay .neben-links.two-col .right-nebenlinks a.text-icon:last-of-type .text{
+		border-bottom:none;
 	}
 	.neben-link-container-icon-text.text .neben-link-main{
 		width:100%;
@@ -897,3 +900,9 @@ li.menu-item{
 		padding-bottom:12px;
 	}
 }
+@media(orientation:portrait){
+  .hauptlinks, .neben-links{
+    width:100% !important;
+  }
+}
+
