@@ -165,6 +165,12 @@ li.menu-item{
 .language-chooser{
 	margin:0px;
 }
+.language-chooser .language-chooser-item-de{
+	float:left;
+}
+.language-chooser .language-chooser-item-en{
+	padding-left:4px;
+}
 .language-chooser .language-chooser-item-en:after, .language-chooser .language-chooser-item-de:after{
   content:" /";
   color:inherit;
