@@ -60,6 +60,9 @@ body{
   top:4px;
   right:-1px;
 }
+.social-links .youtube svg{
+	width:30px;
+}
 .einleitung-main-text .social-links, .flexi-layout .social-links{
   padding-left:0px;
 	font-size:24px !important;
