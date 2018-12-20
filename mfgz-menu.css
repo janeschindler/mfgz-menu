@@ -653,7 +653,6 @@ li.menu-item{
 	.menu-overlay .neben-links a.text-icon .text{
 		padding-left:26px;
 		width:100%;
-		border-bottom: 1px solid rgba(0,0,0,.05);
 	}
 	.menu-overlay .neben-links.two-col .right-nebenlinks a.text-icon:last-of-type .text{
 		border-bottom:none;
@@ -920,11 +919,16 @@ li.menu-item{
 		margin-top:0px;
 		padding-top:6px;
 		padding-bottom:12px;
+		border-top: 1px solid rgb(245,245,245);
 	}
 }
 @media(orientation:portrait){
   .hauptlinks, .neben-links{
     width:100% !important;
   }
+
+	.right-nebenlinks {
+		border-top: 1px solid rgb(245,245,245);
+	}
 }
 
